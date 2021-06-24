@@ -1,15 +1,10 @@
 import React from 'react'
+import App from '../styles/App.css'
 
 const Navbar = () => {
 
     return(
-        <header>
-            <div>
-                <div className="Navbar-logo">
-                    <img src="" alt="Foto de Geraldine Rios" />
-                    <span className="Navbar-name"><h1>Geraldine Rios</h1></span>
-                </div>
-            </div>
+        <header className="header">
             <nav className="Navbar-menu">
                 <ul className="Navbar-links">
                     <li><a href="./">Inicio</a></li>

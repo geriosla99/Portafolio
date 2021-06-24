@@ -1,9 +1,10 @@
 import React from 'react'
+import App from '../styles/App.css'
 
 const Portafolio = () => {
 
     return(
-        <div className="Portafolio-container">
+        <div className="About">
             <h2>Portafolio</h2>
             <span className="Sprint-1">
                 <link rel="stylesheet" href="" />

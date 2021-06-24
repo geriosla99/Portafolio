@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Patrick Hand SC;
+    color: #000;
+}
+.header{
+    background: #30FA1A;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+}
+.navbar{
+    text-align: right;
+    padding: 4vh;
+}
+.link-nav{
+    padding: 0 3.2vh 0 3.2vh;
+    font-size: 4vh;
+    text-decoration: none;
+    color: #000;
+}
+.link-nav:hover{
+    background: #1ea010;
+    padding: 2.2%;
+}
+#welcome-section{
+    background: #EBA846;
+    padding: 18vw;
+}
+h1{
+    text-align: center;
+    font-size: 5vw;
+}
+p{
+    text-align: center;
+    color: #5EEBBE;
+    font-size: 2vw;
+}
+#projects{
+    background: #EB75C1;
+    display: grid;
+  
+}
+h2{
+    font-size: 3vw;
+    text-align: center;
+    padding: 4vw;
+}
+.project-tile{
+    border: 1px solid #fff;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding: 5vw;
+   font-size: 2rem ;
+   float: left;
+   margin: 4vw;
+}
+.link-pro{
+    text-decoration: none;
+    color: #000;
+}
+.headgrid{
+    padding: 0.5vw;
+}
+#contacto{
+    background-color: #6AB5EB;
+    padding: 15vw;
+    align-items: center;
+    justify-content: center;
+}
+.link-red{
+    padding: 2vw;
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-widht: 800px){
+    p{
+        font-size: 5vw;
+    }
+    .project-tile{
+        display: flex;
+        flex-direction: column;
+    }
+}

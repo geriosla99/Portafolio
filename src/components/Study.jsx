@@ -1,9 +1,10 @@
 import React from 'react'
+import App from '../styles/App.css'
 
 const Study = () => {
 
     return(
-        <div className="Study-container">
+        <div className="About">
             <span className="Study-title">
                 <h2>Estudios</h2>
             </span>

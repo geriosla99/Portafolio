@@ -4,6 +4,7 @@ import Navbar from './Navbar.jsx'
 import Study from './Study.jsx'
 import Portafolio from './Portafolio.jsx'
 import Form from './Form.jsx'
+import App from '../styles/App.css'
 
 const Main = () => {
 

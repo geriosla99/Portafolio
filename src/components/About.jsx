@@ -1,4 +1,6 @@
 import React from 'react'
+import App from '../styles/App.css'
+import Social from './Social.jsx'
 
 const About = () => {
 
@@ -7,11 +9,11 @@ const About = () => {
         <div className="About-container">
             <div className="About-avatar">
                 <figure>
-                    <img src="/" alt="About foto" />
+                    <img src="../Img/Geral.jpeg" alt="About foto" />
                 </figure>
             </div>
             <div className="About-name">
-                <h2>Geraldine Rios</h2>
+                <h1>Geraldine Rios</h1>
             </div>
             <div  className="About-profession">
                 <p>Desarrollo web/Frontend</p>
@@ -23,7 +25,7 @@ const About = () => {
                 <p>Soacha-Cundinamarca</p>
             </div>
             <div className="About-social">
-                <p>Social</p>
+                <Social/>
             </div>
         </div>
     </div>
