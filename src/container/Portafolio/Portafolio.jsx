@@ -6,9 +6,10 @@ import Header from "../../components/Header/Header";
 const Portafolio = () => {
     return (
         <>
-            <Header/>
+        hola
+            
             <About/>
-            <Form/>
+            
         </>
     )
 }
