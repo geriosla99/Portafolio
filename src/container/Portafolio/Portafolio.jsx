@@ -4,10 +4,7 @@ import About from '../../components/About/About'
 const Portafolio = () => {
     return (
         <>
-        hola
-            
-            <About/>
-            
+            <About/>            
         </>
     )
 }
