@@ -7,7 +7,8 @@ const Header = () => {
         <>
             <PhotoBanner>                
             </PhotoBanner>
-            <About/>          
+            <About/> 
+                     
         </>
     )
 }
