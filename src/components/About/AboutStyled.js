@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 
 export const ContainerPhoto = styled.div`
-    width: 10vw;    
+    width: 15vw;  
+    margin-top: -3em;  
+    
 `;
 
 export const ProfilePhoto = styled.img`
