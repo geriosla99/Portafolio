@@ -17,7 +17,6 @@ export const ProfilePhoto = styled.img`
 `;
 
 export const ContentFirstInfo = styled.div`
-    color: #649863;
     width: 80%;
 `;
 
