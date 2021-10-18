@@ -6,9 +6,10 @@ import {
   Link
 } from "react-router-dom";
 import Education from "../components/Education/Education";
-import Form from "../components/Form/Form";
+import ContactForm from "../components/ContactForm/ContactForm";
 import MyInfo from "../components/MyInfo/MyInfo";
 import Proyects from "../components/Proyects/Proyects";
+import Habilitys from "../components/Education/Hability/Habilitys";
 
 export default function App() {
   return (
@@ -17,7 +18,10 @@ export default function App() {
           <Route exact path="/Sobre-mi" component={MyInfo}/>   
           <Route exact path="/Estudios" component={Education}/>          
           <Route exact path="/Mis-proyectos" component={Proyects}/>
-          <Route exact path="/Contactame" component={Form}/>    
+          <Route exact path="/Contactame" component={ContactForm}/>    
+          <Route exact path="/Habilidades" component={Habilitys}/>    
+          <Route exact path="/Contactame" component={ContactForm}/>    
+          <Route exact path="/Contactame" component={ContactForm}/>    
         </Switch>
     </Router>
   );

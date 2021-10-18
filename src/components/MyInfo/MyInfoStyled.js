@@ -8,7 +8,6 @@ export const ContentResume = styled.div`
 `;
 
 export const Resumen = styled.span`
-    width: 80%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 3em;
