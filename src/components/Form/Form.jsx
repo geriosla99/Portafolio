@@ -1,6 +1,5 @@
-import Button from '@restart/ui/esm/Button'
 import React from 'react'
-import { Container, FloatingLabel } from 'react-bootstrap'
+import { Container, FloatingLabel, Button } from 'react-bootstrap'
 
 const Form = () => {
     return (
