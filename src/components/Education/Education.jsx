@@ -2,6 +2,7 @@ import React from 'react'
 import { SubMenu } from './EducationStyled'
 
 const Education = () => {
+
     return (
         <>            
             <h3>Mis estudios</h3>
