@@ -19,4 +19,3 @@ export const StyledNav = styled.nav`
 export const MenuPortafolio = styled.span`
     margin: 1em;
 `;
-

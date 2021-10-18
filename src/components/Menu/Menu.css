@@ -1,0 +1,8 @@
+.text{
+    text-decoration: none;
+    color: #649863;
+}
+.text:hover{
+    color: #649863;
+    border-bottom: 1px solid #649863;;
+}

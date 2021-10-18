@@ -2,6 +2,7 @@ import React from 'react'
 import { ContainerPhoto, ProfilePhoto, ContentFirstInfo, PersonalInfo } from './AboutStyled'
 
 const About = () => {
+
     return (
         <>
             <ContentFirstInfo>

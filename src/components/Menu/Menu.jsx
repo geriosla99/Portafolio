@@ -1,5 +1,7 @@
 import React from 'react'
+import { BrowserRouter, Link } from 'react-router-dom'
 import { MenuPortafolio, StyledNav, MenuContainer } from './MenuStyled'
+import './Menu.css'
 
 
 const Menu = () => {
@@ -8,16 +10,24 @@ const Menu = () => {
             <MenuContainer>
                 <StyledNav>                
                     <MenuPortafolio>
-                        <h5>Sobre mí</h5>
+                        <BrowserRouter>
+                            <h5><Link className='text' to="/Sobre-mi">Sobre mí</Link></h5>
+                        </BrowserRouter>
                     </MenuPortafolio>
                     <MenuPortafolio>
-                        <h5>Mis estudios</h5>
+                        <BrowserRouter>
+                        <h5><Link className='text' to="/Estudios">Mis estudios</Link></h5>
+                        </BrowserRouter>                        
                     </MenuPortafolio>
                     <MenuPortafolio>
-                        <h5>Mis proyectos</h5>
+                        <BrowserRouter>
+                        <h5><Link className='text' to="/Mis-proyectos">Mis proyectos</Link></h5>
+                        </BrowserRouter>                        
                     </MenuPortafolio>
                     <MenuPortafolio>
-                        <h5>Contáctame</h5>
+                        <BrowserRouter>
+                            <h5><Link className='text' to="/Contactame">Contáctame</Link></h5>
+                        </BrowserRouter>                        
                     </MenuPortafolio>            
                 </StyledNav>
             </MenuContainer>           
