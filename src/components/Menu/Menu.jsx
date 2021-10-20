@@ -1,7 +1,8 @@
 import React from 'react'
-import { BrowserRouter, Link } from 'react-router-dom'
+import { BrowserRouter } from 'react-router-dom'
 import { MenuPortafolio, StyledNav, MenuContainer } from './MenuStyled'
 import './Menu.css'
+import { Nav } from 'react-bootstrap'
 
 
 const Menu = () => {
@@ -11,22 +12,22 @@ const Menu = () => {
                 <StyledNav>                
                     <MenuPortafolio>
                         <BrowserRouter>
-                            <h5><Link className='text' to="/Sobre-mi">Sobre mí</Link></h5>
+                            <h5><Nav.Link  className='text' href="/Sobre-mi">Sobre mí</Nav.Link></h5>
                         </BrowserRouter>
                     </MenuPortafolio>
                     <MenuPortafolio>
                         <BrowserRouter>
-                        <h5><Link className='text' to="/Estudios">Mis estudios</Link></h5>
+                        <h5><Nav.Link  className='text' href="/Estudios">Mis estudios</Nav.Link></h5>
                         </BrowserRouter>                        
                     </MenuPortafolio>
                     <MenuPortafolio>
                         <BrowserRouter>
-                        <h5><Link className='text' to="/Mis-proyectos">Mis proyectos</Link></h5>
+                        <h5><Nav.Link className='text' href="/Mis-proyectos">Mis proyectos</Nav.Link></h5>
                         </BrowserRouter>                        
                     </MenuPortafolio>
                     <MenuPortafolio>
                         <BrowserRouter>
-                            <h5><Link className='text' to="/Contactame">Contáctame</Link></h5>
+                            <h5><Nav.Link  className='text' href="/Contactame">Contáctame</Nav.Link></h5>
                         </BrowserRouter>                        
                     </MenuPortafolio>            
                 </StyledNav>
