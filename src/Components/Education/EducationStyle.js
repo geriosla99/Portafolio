@@ -22,8 +22,7 @@ export const ContentList = styled.ul`
 
 export const List = styled.li`
     float: left;    
-    font-size: 20px; 
-    
+    font-size: 2rem; 
 `;
 
 export const Link = styled.p`
