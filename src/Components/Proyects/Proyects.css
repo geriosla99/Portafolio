@@ -1,5 +1,6 @@
 img:hover{
     filter: brightness(1);
+    transition-duration: .3s;
 }
 hr{
     margin: auto;
