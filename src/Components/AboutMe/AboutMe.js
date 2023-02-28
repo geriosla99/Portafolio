@@ -25,9 +25,7 @@ export const Name = styled.h1`
 export const PhotoGRL = styled.img`
     width: 20rem;
     height: auto;
-    filter: blur(.6px) brightness(0.88);
     border-radius: 2%;
-
 `;
 export const Profesion = styled.p`
     font-size: 2rem;

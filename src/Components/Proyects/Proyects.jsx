@@ -11,10 +11,14 @@ const Proyects = () => {
                 <TitleProyects>
                     Landing Page
                 </TitleProyects>
+                    <hr />
                     <p>
                         Este es un proyecto en el que se crea una landing page de un e-commerce.
                     </p>
-                    <ImgProyects src="https://i.imgur.com/kPvSRPb.png" alt="" />
+                    <a href="https://landingpageexcel.netlify.app/">
+                        <ImgProyects src="https://i.imgur.com/kPvSRPb.png" alt="" />
+                    </a>
+                    {/* agregar link al proyecto */}
             </CardProyect>
         </ContentProyect>
     </ContainerProyect>

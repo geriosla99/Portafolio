@@ -9,6 +9,7 @@ export const TitleProyect = styled.h4`
     text-align: center;
     color: #9d8189;
     font-size: 2rem; 
+    margin: auto;
 `;
 
 export const ContentProyect = styled.div`
@@ -22,6 +23,9 @@ export const CardProyect = styled.div`
     background: #ffffff;
     border-radius: 20px;
     padding: 1rem;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
 `;
 
 export const TitleProyects = styled.p`
