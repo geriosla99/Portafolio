@@ -1,6 +1,6 @@
 import React from 'react'
 import './Proyects.css'
-import { CardProyect, ContainerProyect, ContentProyect, TitleProyect, TitleProyects, ImgProyects } from './ProyectStyles'
+import { CardProyect, ContainerProyect, ContentProyect, TitleProyect, TitleProyects, ImgProyects, DescriptionProyect } from './ProyectStyles'
 
 const Proyects = () => {
   return (
@@ -12,9 +12,9 @@ const Proyects = () => {
                     Landing Page
                 </TitleProyects>
                     <hr />
-                    <p>
+                    <DescriptionProyect>
                         Este es un proyecto en el que se crea una landing page de un e-commerce.
-                    </p>
+                    </DescriptionProyect>
                     <a href="https://landingpageexcel.netlify.app/">
                         <ImgProyects src="https://i.imgur.com/kPvSRPb.png" alt="" />
                     </a>

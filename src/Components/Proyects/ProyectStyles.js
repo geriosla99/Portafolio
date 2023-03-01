@@ -26,15 +26,28 @@ export const CardProyect = styled.div`
     box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    
 `;
 
 export const TitleProyects = styled.p`
     font-size: 1.5rem;
     text-align: center;
+    @media only screen and (max-width:320px){
+        font-size: 1rem  !important;
+    }
+`;
+
+export const DescriptionProyect = styled.p`
+    @media only screen and (max-width:320px){
+        font-size: .7rem  !important;
+    }
 `;
 
 export const ImgProyects = styled.img`
     width: 15rem;
     heigt: auto;
     filter: brightness(50%);
+    @media only screen and (max-width:320px){
+        width: 10rem !important;
+    }
 `;

@@ -24,6 +24,7 @@ export const Name = styled.p`
     font-size: 9rem;
     font-weight: 700;
     width: 5rem;
+    line-height: normal;
     @media only screen and (max-width:1200px){
         font-size: 7rem !important;
     }
@@ -39,7 +40,7 @@ export const Name = styled.p`
 `;
 
 export const PhotoGRL = styled.img`
-    width: 20rem;
+    width: 24rem;
     height: auto;
     border-radius: 2%;
     @media only screen and (max-width:425px){
@@ -60,11 +61,10 @@ export const InfoChange = styled.div`
     width: 100%;
 `;
 
-export const Description = styled.p`
+export const Description = styled.h3`
     text-align: justify;
     padding: 2rem;
-    font-size: 9rem;
-    
+    line-height: 3.5rem;
     @media only screen and (max-width:320px){
         font-size: 1.5rem !important;
     }
