@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    padding-top: 5rem;
+    padding-top: 2rem;
     background: #ffcad4;
     padding-bottom:1rem;
     color: #9d8189;
@@ -48,6 +48,9 @@ export const PhotoGRL = styled.img`
     }
     @media only screen and (max-width:320px){
         width: 5rem;
+    }
+    @media only screen and (max-width:768px){
+        width: 10rem;
     }
 `;
 export const Profesion = styled.p`
