@@ -21,7 +21,7 @@ export const Content = styled.div`
 `;
 
 export const Name = styled.p`
-    font-size: 9rem;
+    font-size: 7rem;
     font-weight: 700;
     width: 5rem;
     line-height: normal;
@@ -40,7 +40,7 @@ export const Name = styled.p`
 `;
 
 export const PhotoGRL = styled.img`
-    width: 24rem;
+    width: 22rem;
     height: auto;
     border-radius: 2%;
     @media only screen and (max-width:425px){

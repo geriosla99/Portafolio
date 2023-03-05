@@ -47,7 +47,7 @@
 	background: transparent;
 	border: none;
 	outline: none;
-	color: var(--textColor);
+	color: #9d8189;
 	visibility: hidden;
 	opacity: 0;
 	font-size: 1.8rem;
