@@ -10,13 +10,10 @@ const Education = () => {
     const [isShow, setIsShow] = useState(false);
     const [typeComponent, setTypeComponent] = useState()
     const handleClick = (value) => {
-        // 👇️ toggle shown state
-        console.log(value)
-        setTypeComponent(value)
-        setIsShow(current => !current);
-        // 👇️ or simply set it to true
-        // setIsShown(true);
+        setTypeComponent(value);
+        setIsShow(true);
     };
+    
     return (
         <div>
             <Container>

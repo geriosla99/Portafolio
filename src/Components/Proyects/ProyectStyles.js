@@ -17,6 +17,7 @@ export const ContentProyect = styled.div`
     grid-template-columns: repeat(4, 1fr);
     gap: 5rem;
     padding: 0 5rem;
+    margin-top: 2rem;
 `;
 
 export const CardProyect = styled.div`
