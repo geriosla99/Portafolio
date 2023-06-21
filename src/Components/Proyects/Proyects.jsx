@@ -15,7 +15,7 @@ const Proyects = () => {
                     <DescriptionProyect>
                         Este es un proyecto en el que se crea una landing page de un e-commerce.
                     </DescriptionProyect>
-                    <a target="_blank" href="https://landingpageexcel.netlify.app/">
+                    <a target="_blank" rel="noreferrer" href="https://landingpageexcel.netlify.app/">
                         <ImgProyects src="https://i.imgur.com/kPvSRPb.png" alt="" />
                     </a>
                     {/* agregar link al proyecto */}
@@ -28,7 +28,7 @@ const Proyects = () => {
                     <DescriptionProyect>
                         En este proyecto en el que se una página web para un parque de trampolines hecho en wordpress.
                     </DescriptionProyect>
-                    <a target="_blank" href="https://dinamiktrampolinepark.com/">
+                    <a target="_blank" rel="noreferrer" href="https://dinamiktrampolinepark.com/">
                         <ImgProyects src="https://i.imgur.com/6WHl0vu.png" alt="" />
                     </a>
                     {/* agregar link al proyecto */}
