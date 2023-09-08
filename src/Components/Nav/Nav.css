@@ -1,10 +1,10 @@
 .link-nav:hover {
   color: #9d8189;
-  transition-duration: .35s;
+  transition-duration: .30s;
 }
 .list-nav:hover{
   background: rgb(240, 220, 220);
-  transition-duration: .35s;
+  transition-duration: .30s;
 }
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
