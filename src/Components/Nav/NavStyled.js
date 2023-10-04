@@ -6,7 +6,7 @@ export const Header = styled.header`
     position: fixed;
     z-index: 100;
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
 `;
 
 export const Navigator = styled.nav`
@@ -27,4 +27,8 @@ export const Link = styled.a`
     padding: 20px;
     color: #9d8189;
     text-decoration: none;
+`;
+
+export const Logo = styled.img`
+    width: 5rem;
 `;

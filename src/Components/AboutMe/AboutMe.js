@@ -73,3 +73,11 @@ export const Description = styled.h3`
     }
     
 `;
+export const DescriptionText = styled.h5`
+    text-align: justify;
+    padding: 5rem 8rem 5rem 8rem;
+`;
+export const DescriptionTitle = styled.h4`
+    text-align: center;
+    padding: 5rem 8rem 0rem 8rem;
+`;

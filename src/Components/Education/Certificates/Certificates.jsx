@@ -27,6 +27,27 @@ const Certificates = () => {
             alt="Third slide"
           />
         </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto w-50"
+            src="https://i.imgur.com/9aZOjn0.png"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto w-50"
+            src="https://i.imgur.com/qBkGKZq.png"
+            alt="Third slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block mx-auto w-50"
+            src="https://i.imgur.com/hh6TzIK.png"
+            alt="Third slide"
+          />
+        </Carousel.Item>
       </Carousel>
     </div>
   )

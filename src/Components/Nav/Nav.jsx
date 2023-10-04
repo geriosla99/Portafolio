@@ -1,12 +1,12 @@
 import React from 'react'
 import './Nav.css'
 import { useRef } from "react";
-import { Header, Li, Link, Navigator, Ul } from './NavStyled'
+import { Header, Li, Link, Logo, Navigator, Ul } from './NavStyled'
 import { FaTimes, FaBars } from "react-icons/fa";
 
 const Nav = () => {
 
-  const navRef= useRef();
+  const navRef = useRef();
 
   const showNavbar = () => {
     navRef.current.classList.toggle("responsive_nav");
@@ -14,22 +14,23 @@ const Nav = () => {
 
   return (
     <div>
-        <Header>
-            <Navigator ref={navRef}>
-                <Ul>
-                    <Li className='list-nav'><Link  className='link-nav' href="#">Inicio</Link></Li>
-                    <Li className='list-nav'><Link  className='link-nav' href="#">Portafolio</Link></Li>
-                    <Li className='list-nav'><Link  className='link-nav' href="#">Blog</Link></Li>
-                    <Li className='list-nav'><Link  className='link-nav' href="#">Contacto</Link></Li>
-                    <button className='nav-btn' onClick={showNavbar}>
-                        <FaTimes/>
-                    </button>
-                </Ul>
-            </Navigator>
-            <button className='nav-btn nav-close-btn' onClick={showNavbar}>
-              <FaBars/>
+      <Header>
+        <Logo src="https://i.imgur.com/dba4PIE.png" alt="" />
+        <Navigator ref={navRef}>
+          <Ul>
+            <Li className='list-nav'><Link className='link-nav' href="#">Inicio</Link></Li>
+            <Li className='list-nav'><Link className='link-nav' href="#">Portafolio</Link></Li>
+            <Li className='list-nav'><Link className='link-nav' href="#">Blog</Link></Li>
+            <Li className='list-nav'><Link className='link-nav' href="#">Contacto</Link></Li>
+            <button className='nav-btn' onClick={showNavbar}>
+              <FaTimes />
             </button>
-        </Header>
+          </Ul>
+        </Navigator>
+        <button className='nav-btn nav-close-btn' onClick={showNavbar}>
+          <FaBars />
+        </button>
+      </Header>
     </div>
   )
 }

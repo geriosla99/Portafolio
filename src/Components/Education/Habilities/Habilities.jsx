@@ -25,15 +25,23 @@ const Habilities = () => {
       </ContentProgressBar>
       <ContentProgressBar>
         <Label htmlFor="">C#</Label>
-        <ProgressBar variant="primary" animated now={30} />  
+        <ProgressBar variant="primary" animated now={50} />  
+      </ContentProgressBar>
+      <ContentProgressBar>
+        <Label htmlFor="">Java</Label>
+        <ProgressBar variant="danger" animated now={30} />  
+      </ContentProgressBar>
+      <ContentProgressBar>
+        <Label htmlFor="">Python</Label>
+        <ProgressBar variant="warning" animated now={30} />  
       </ContentProgressBar>
       <ContentProgressBar>
         <Label htmlFor="">jquery</Label>
-        <ProgressBar variant="warning" animated now={65} />  
+        <ProgressBar variant="info" animated now={65} />  
       </ContentProgressBar>
       <ContentProgressBar>
         <Label htmlFor="">SQL</Label>
-        <ProgressBar variant="danger" animated now={34} />  
+        <ProgressBar variant="danger" animated now={47} />  
       </ContentProgressBar>
       <ContentProgressBar>
         <Label htmlFor="">Firebase</Label>
