@@ -20,7 +20,7 @@ export const RRSS = styled.div`
 
 export const TitleContact = styled.h4`
 text-align: center;
-color: #9d8189;
+color: #ffffff;
 font-size: 2rem; 
 margin: auto;
 `;

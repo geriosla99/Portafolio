@@ -1,12 +1,14 @@
 import AboutMe from "../Components/AboutMe/AboutMe.jsx";
+import Bubbles from "../Components/Bubbles/Bubbles.jsx";
 import Contact from "../Components/Contact/Contact.jsx";
 import Education from "../Components/Education/Education.jsx";
 import Nav from "../Components/Nav/Nav.jsx";
 import Proyects from "../Components/Proyects/Proyects.jsx";
+import './app.css'
 import React, { useEffect, useState } from 'react';
 
 const HolographicBackground = () => {
-  const [colors, setColors] = useState(['#80e8dd', '#7cc2f6', '#af81e4', '#e784ba', '#f9c1a0', '#b7f6af']);
+  const [colors, setColors] = useState(['#bfebe8', '#add8f6', '#d9c5e9', '#f0cbbf', '#fcd8c4', '#d8f7e1']);
   
   useEffect(() => {
     const body = document.body;
@@ -37,6 +39,7 @@ function App(props) {
     return (
         <div>
             <HolographicBackground />
+            <Bubbles/>
             <Nav/>
             <AboutMe/>
             <Education/>

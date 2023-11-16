@@ -6,7 +6,7 @@ export const ContainerProyect = styled.div`
 
 export const TitleProyect = styled.h4`
     text-align: center;
-    color: #9d8189;
+    color: #ffffff;
     font-size: 2rem; 
     margin: auto;
 `;

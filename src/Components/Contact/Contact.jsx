@@ -54,22 +54,22 @@ const Contact = () => {
         <ContainerRRSS>
           <RRSS>
             <a href="https://www.linkedin.com/in/geraldine-rios-506a271a7/">
-              <BsLinkedin size={"2rem"} />
+              <BsLinkedin size={"2rem"} style={{ color: '#ffffff'}}/>
             </a>
           </RRSS>
           <RRSS>
             <a href="https://github.com/geriosla99">
-              <TfiGithub size={"2rem"} />
+              <TfiGithub size={"2rem"} style={{ color: '#ffffff'}}/>
             </a>
           </RRSS>
           <RRSS>
             <a href="mailto:geriosla@gmail.com">
-              <TbBrandGmail size={"2rem"} />
+              <TbBrandGmail size={"2rem"} style={{ color: '#ffffff'}}/>
             </a>
           </RRSS>
           <RRSS>
             <a href="mailto:geraldine.rios@hotmail.com">
-              <SiMicrosoftoutlook size={"2rem"} />
+              <SiMicrosoftoutlook size={"2rem"} style={{ color: '#ffffff'}}/>
             </a>
           </RRSS>
         </ContainerRRSS>
