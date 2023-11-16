@@ -8,7 +8,7 @@ import './app.css'
 import React, { useEffect, useState } from 'react';
 
 const HolographicBackground = () => {
-  const [colors, setColors] = useState(['#bfebe8', '#add8f6', '#d9c5e9', '#f0cbbf', '#fcd8c4', '#d8f7e1']);
+  const [colors] = useState(['#bfebe8', '#add8f6', '#d9c5e9', '#f0cbbf', '#fcd8c4', '#d8f7e1']);
   
   useEffect(() => {
     const body = document.body;
