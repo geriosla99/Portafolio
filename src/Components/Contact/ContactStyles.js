@@ -7,7 +7,6 @@ export const ContainerContact = styled.div`
 `;
 
 export const ContentContact = styled.div`
-    background: #d8e2dc;
     padding: 3rem 5rem;
 `;
 export const ContainerRRSS = styled.div`
